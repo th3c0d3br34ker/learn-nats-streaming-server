@@ -1,0 +1,22 @@
+{
+  "name": "learn-nats-streaming-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publisher": "nodemon src/publisher.ts",
+    "listener": "nodemon src/listener.ts"
+  },
+  "keywords": [],
+  "author": "th3c0d3br34ker",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^15.14.0",
+    "node-nats-streaming": "^0.3.2",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9",
+    "ts-node": "^10.0.0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "autorun": false,
+  "autokill": true,
+  "terminals": [
+    {
+      "name": "publisher",
+      "description": "Run publisher",
+      "focus": true,
+      "command": "npm run publisher"
+    },
+    {
+      "name": "listener",
+      "description": "Run listener",
+      "focus": true,
+      "command": "npm run listener"
+    }
+  ]
+}
